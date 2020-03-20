@@ -51,7 +51,11 @@ public class Student {
 
 	public void show() {
 		System.out.println("in show()");
-		laptop.lap();
+		laptop.setLid(101);
+		laptop.setLbrand("a1");
+		laptop.setLname("dell");
+		System.out.println("the laptaps specifications \n" + laptop.getLid() + "\n " + laptop.getLbrand() + "\n "
+				+ laptop.getLname());
 
 	}
 

@@ -41,6 +41,7 @@ public class Laptop {
 	public void lap() {
 		System.out.println("laptop lap()");
 		
+		
 	}
 
 }

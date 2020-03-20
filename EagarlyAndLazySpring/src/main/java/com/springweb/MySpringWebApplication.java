@@ -15,8 +15,7 @@ public class MySpringWebApplication {
 		Student stu = (Student) context.getBean("student");
 		stu.show();
 
-		Student stu1 = (Student) context.getBean("student");
-		stu1.show();
+	
 
 	}
 
